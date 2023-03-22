@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="login.css">
+<html>
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+     
+      <form action="Signup.jsp" method="post">
+      <fieldset>
+        <label>First Name</label>
+        <input type="text" name="fname" placeholder="" required />
+        <label>Last Name</label>
+        <input type="text" name="lname" placeholder="" required />
+        <label>Email</label>
+        <input type="email" name="email" placeholder="" required />
+        <label>Phone number</label>
+        <input type="text" name="phone" placeholder="" required/>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="" maxlength = "20" required />
+        <button class="btn">Submit</button>
+        </fieldset>
+      </form>
+       <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+    </div>
+   
+  </body>
+</html>
